@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* Define font variable */
+:root {
+  --font-neue-montreal: "PPNeueMontreal";
+}
+
+@theme {
+  --font-neue-montreal: "PPNeueMontreal";
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-tertiary: #b9b5b5;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+  display: none;
+}
